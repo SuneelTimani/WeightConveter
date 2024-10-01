@@ -37,12 +37,15 @@ function get(){
             kgInput.value = ocInput.value*0.0283495;
             pdInput.value = ocInput.value*0.0625;
         }
+        newButton.remove();
         box.append(clearButton);
         clearButton.addEventListener("click", () => {
             kgInput.value = 0;
             pdInput.value = 0;
             ocInput.value = 0;
             clearButton.remove();
+            box.append(newButton);
+            
         });
     }
 }
