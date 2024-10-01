@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+body{
+    background-color: rgb(222, 245, 247);
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outerBox{
+    padding: 3vh;
+    border-radius: 10px;
+    display: grid;
+    background: white;
+}
+h2{
+    padding: 10px 30px;
+}
+.input{
+    height: 40px;
+    border-radius: 5px;
+    border: solid 2px grey;
+    font-weight: 600;
+}
+.label{
+    padding: 10px 0 2px;
+}
+.button{
+color: White;
+height: 40px;
+margin-top: 15px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+font-weight: 700;
+}
